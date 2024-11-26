@@ -1,0 +1,114 @@
+{
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "Comments",
+        "scope": ["comment", "punctuation.definition.comment"],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "#4A4A4A"
+        }
+      },
+      {
+        "name": "Keywords",
+        "scope": ["keyword", "storage.type"],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "#569CD6"
+        }
+      },
+      {
+        "name": "Control Statements",
+        "scope": ["keyword.control"],
+        "settings": {
+          "foreground": "#FF79C6",
+          "fontStyle": "italic bold"
+        }
+      },
+      {
+        "name": "Constants",
+        "scope": ["variable.other.constant", "constant.language"],
+        "settings": {
+          "foreground": "#DCDCAA",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "name": "Variables",
+        "scope": ["variable", "identifier"],
+        "settings": {
+          "foreground": "#A4E22D"
+        }
+      },
+      {
+        "name": "Destructured Variables",
+        "scope": ["meta.object-literal.key"],
+        "settings": {
+          "foreground": "#B5CEA8"
+        }
+      },
+      {
+        "name": "Function Names",
+        "scope": ["entity.name.function", "support.function"],
+        "settings": {
+          "foreground": "#FFA500"
+        }
+      },
+      {
+        "name": "Component Names",
+        "scope": ["support.class.component", "entity.name.tag"],
+        "settings": {
+          "foreground": "#4EC9B0"
+        }
+      },
+      {
+        "name": "Class Names",
+        "scope": ["entity.name.type.class"],
+        "settings": {
+          "foreground": "#C586C0"
+        }
+      },
+      {
+        "name": "Component Attributes",
+        "scope": ["entity.other.attribute-name"],
+        "settings": {
+          "foreground": "#FFD700",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "name": "Strings",
+        "scope": ["string"],
+        "settings": {
+          "foreground": "#CE9178",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "name": "Numbers",
+        "scope": ["constant.numeric"],
+        "settings": {
+          "foreground": "#B5EAD7"
+        }
+      },
+      {
+        "name": "Decorators",
+        "scope": [
+          "tag.decorator.js entity.name.tag.js",
+          "tag.decorator.js punctuation.definition.tag.js"
+        ],
+        "settings": {
+          "foreground": "#D16969",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "name": "Operators",
+        "scope": ["keyword.operator"],
+        "settings": {
+          "foreground": "#D4D4D4"
+        }
+      }
+    ]
+  }
+}
